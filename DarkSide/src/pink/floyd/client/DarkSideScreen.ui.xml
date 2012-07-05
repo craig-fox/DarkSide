@@ -4,7 +4,19 @@
 	<ui:style>
 		/* Add CSS here. See the GWT docs on UI Binder for more details */
 	</ui:style>
+	<g:TabLayoutPanel barUnit='EM' barHeight='3'>
+	<g:tab>
+	<g:header size='5'><b>Great Gig</b></g:header>
 	<g:HTMLPanel>
 		<h1>Pink Floyd are Playing Here Tonight!</h1>
+		<g:Button text="Buy Tickets Here"></g:Button>
 	</g:HTMLPanel>
+	</g:tab>
+	<g:tab>
+	<g:header size='5'><b>Us And Them</b></g:header>
+	<g:HTMLPanel>
+	   <img src="images.jpg" />
+	</g:HTMLPanel>
+	</g:tab>
+	</g:TabLayoutPanel>
 </ui:UiBinder> 
