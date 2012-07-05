@@ -1,0 +1,2 @@
+serviceClass: pink.floyd.client.GreetingService
+path: 28378508E60F673861134C50E4FBDC64.gwt.rpc
