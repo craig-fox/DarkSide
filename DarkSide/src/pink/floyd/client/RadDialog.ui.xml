@@ -11,6 +11,8 @@
    <g:caption><b>Scalpers R Us</b></g:caption>
    <g:HTMLPanel>
      <h3>Tickets for only $350 a piece!</h3>
+     <p><em>And that's only for the moshpit</em>. For our premium seat prices,
+         please contact us while sitting down</p>
      <g:Button ui:field='cancelButton'>Pike</g:Button>
      <g:Button ui:field='okButton'>Buy</g:Button>
    </g:HTMLPanel>
