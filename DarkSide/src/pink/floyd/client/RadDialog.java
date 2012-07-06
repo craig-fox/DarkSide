@@ -36,8 +36,6 @@ public class RadDialog extends Composite {
 		rad.hide();
 	}
 
-
-
 	public RadDialog() {
 		initWidget(uiBinder.createAndBindUi(this));
 	}
