@@ -6,6 +6,7 @@
 			font-weight: bold;
 		}
 	</ui:style>
+ <g:FlowPanel>
  <g:DialogBox autoHide="true" modal="true">
    <g:caption><b>Scalpers R Us</b></g:caption>
    <g:HTMLPanel>
@@ -14,5 +15,6 @@
      <g:Button ui:field='okButton'>Buy</g:Button>
    </g:HTMLPanel>
  </g:DialogBox>
+ </g:FlowPanel>
 	
 </ui:UiBinder> 

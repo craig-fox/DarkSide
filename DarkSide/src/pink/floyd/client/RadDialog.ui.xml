@@ -5,6 +5,15 @@
 		.important {
 			font-weight: bold;
 		}
+
+        .ticket {
+           padding: 10px;
+           width: 100%;
+        }
+
+        .buttons {
+           float: right;
+        }
 	</ui:style>
  <g:FlowPanel>
  <g:DialogBox ui:field="rad" autoHide="true" modal="true">
@@ -13,8 +22,17 @@
      <h3>Tickets for only $350 a piece!</h3>
      <p><em>And that's only for the moshpit</em>. For our premium seat prices,
          please contact us while sitting down</p>
-     <g:Button ui:field='cancelButton'>Pike</g:Button>
-     <g:Button ui:field='okButton'>Buy</g:Button>
+         <g:FormPanel ui:field="form">
+            <g:VerticalPanel styleName="{style.ticket}">
+                <g:Label>Name</g:Label>
+                <g:TextBox ui:field="name" />
+                <g:HorizontalPanel styleName="{style.ticket}">
+                  <g:Button ui:field='cancelButton' styleName="{style.buttons}">No Thanks</g:Button>
+                  <g:Button ui:field='okButton' styleName="{style.buttons}">YeeHah!</g:Button>   
+                </g:HorizontalPanel>
+            </g:VerticalPanel> 
+         </g:FormPanel>
+     
    </g:HTMLPanel>
  </g:DialogBox>
  </g:FlowPanel>

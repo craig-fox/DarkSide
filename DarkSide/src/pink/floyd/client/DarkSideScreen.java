@@ -32,6 +32,7 @@ public class DarkSideScreen extends Composite {
 	
 	RadDialog radDialog;
 	
+	
 	/**
 	 * Because this class has a default constructor, it can
 	 * be used as a binder template. In other words, it can be used in other
@@ -51,9 +52,7 @@ public class DarkSideScreen extends Composite {
 	void onClick(ClickEvent e) {
 		radDialog = new RadDialog();
 		radDialog.getRad().showRelativeTo(buyButton);
-		
-		/* TicketDialog ticketDialog = new TicketDialog();
-		ticketDialog.setVisible(true); */
+	
 	}
 
 }
